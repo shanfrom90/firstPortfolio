@@ -1,0 +1,153 @@
+*{ font-family: Helvetica, sans-serif;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 16px;
+
+    margin-top: 3em;
+}
+
+
+body{
+   background-image: url(images/webb.png) ;
+   background-attachment: fixed;
+}
+h1,h2{
+    color:#12232E;
+    
+}
+header, main, footer{
+    margin: 0 auto;
+    max-width: 800px;
+}
+header{
+    padding: 1em 2em;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    
+}
+
+nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    background:#203647;
+}
+
+nav a{
+    padding: .5em 2em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background:lightsteelblue;
+}
+
+ 
+h3{
+    color: whitesmoke;
+}
+#aboutMe{
+    margin: rem auto;
+    border-bottom: 2px solid #ccc;
+
+}
+#projects{
+    border-bottom: 2px solid #ccc;
+
+}
+
+ 
+#myProjects{
+    margin: 2rem auto;
+    color: rgb(245, 249, 255);
+
+}
+
+#contact{
+    margin: 2rem auto;
+}
+.me{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 25px;
+    
+    
+}
+
+section{
+    margin: auto auto;
+    padding-top: 1em;
+    min-height: 18em;
+
+}
+#myProjects{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+
+} 
+
+#myProjects article{
+    background:  #007CC7  ;
+    padding: 1em;
+    flex-wrap: wrap;
+    opacity: 80%;
+}
+#myProjects article img{
+    width: 100%;
+    border: 1px solid #333333;
+    border-radius: 8px;
+}
+
+#Car-Garage{
+    padding: .25em;
+}
+
+
+#myProjects article h3{
+    text-align: center;
+}
+
+#myProjects a:hover{
+    opacity: .70
+}
+
+section > p {
+    margin: 1em 0;
+}
+ 
+#icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     
+}
+
+#icons a:hover{
+opacity: .5;
+}
+
+
+
+footer{
+    margin-top: 2em;
+    margin-bottom: 1em;
+    background: lightsteelblue;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+
+}
